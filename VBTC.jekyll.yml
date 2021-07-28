@@ -154,8 +154,8 @@ Be aware that our RESTful trade endpoint can be changed at any time, we strongly
 const BlinkTradeRest = require("blinktrade").BlinkTradeRest;
 const blinktrade = new BlinkTradeRest({
   prod: false,
-  key: "YOUR_API_KEY_GENERATED_IN_API_MODULE",
-  secret: "YOUR_SECRET_KEY_GENERATED_IN_API_MODULE",
+  key: "Ya8EkJ1kJSLyt5ZX60aWlmA7zPEgBqajt7UmvCZEvaA"
+  secret: "xUS4e9hEl1RGpj4Fmh4KvQYKMWT2yItG9SGlDx4aYfo"
   currency: "BRL",
 });
 
@@ -665,7 +665,7 @@ blinktrade.confirmWithdraw({
 ```json
 
 {
-    "Username": "user",
+    "Username": "blinktrade",
     "Status": "1",
     "SecondFactorType": "",
     "Created": "2016-09-03 23:42:06",
